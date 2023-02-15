@@ -1,0 +1,178 @@
+
+@charset "UTF-8";
+
+  body{
+    background-image: url(../imagens/compass-3408928_1920.jpg);
+  background-position: center;
+
+  background-size: cover;
+  }
+
+
+  
+  
+.cartoes{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+  
+
+  box-shadow: 2px 2px 10px #888888;
+ 
+  }
+
+
+
+.titulo-cartao {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: 'arkhipregular';
+  font-size: 40px;
+  text-align: center;
+  
+  }
+
+
+
+
+  .cartao-item {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    
+    padding: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+    background-color: rgb(255, 255, 102);
+    box-shadow: 2px 2px 10px #888888;
+    
+    border-radius: 10px;
+    margin: 10px;
+       
+  }
+  
+  .cartao-titulo {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+
+    
+    text-align: center;
+  margin-bottom: 10px;
+
+  }
+  
+  .cartao-descricao {
+    font-size: 18px;
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    
+    
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .cartao-descricao p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+
+  }
+  
+.botao-mais{
+  background-color: #ff0040;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 10px;
+ 
+    
+}
+
+
+.botao-mais:hover{
+  background-color: #da5878;
+  color: #000000;
+  border: 1px solid #cc3e3e;
+  width: 50%;
+  margin: 4px 2px;
+  height: auto;
+}
+
+
+
+.botao-mais p{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+}
+
+
+
+
+  .cartao-item:nth-child(2) {
+    background-color:rgb(245, 245, 101);
+
+  }
+  
+  .cartao-item:nth-child(3) {
+    background-color: rgb(255, 255, 102);
+  }
+  
+  .cartao-item:nth-child(4) {
+    background-color:rgb(252, 252, 110);
+  }
+  
+  .cartao-item:nth-child(5) {
+    background-color: rgb(229, 229, 115);
+  }
+
+  .cartao-item:nth-child(6){
+    background-color: rgb(255, 255, 154) ;
+
+  }
+
+  .cartao-item:nth-child(7){
+    background-color: #ffffb1;
+    
+  }
+
+  .cartao-item:nth-child(8){
+    background-color: #fff9be;
+
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .cartao-item {
+      width: 100%;
+    }
+
+  
+  

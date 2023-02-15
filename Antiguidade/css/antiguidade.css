@@ -1,0 +1,72 @@
+body {
+    background-image: url(../imagensAnt/coliseum-4290893_960_720.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.container-antiguidade{
+    text-align: center;
+    
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(105, 73, 31, 0.6);
+    filter: 10px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+
+
+.titulo-antiguidade{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.texto-antiguidade {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin: 10px;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.titulo-antiguidade h3{
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+    font-weight: 800;
+}
+
+.lista-antiguidade{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.5;
+   text-align: justify;
+}
+
+.lista-antiguidade li{
+    margin: 10px;
+    padding: 0;
+    text-align: left;
+    list-style: url(../imagensAnt/history_once_upon_a_time_ancient_icon_220471.png);
+    
+}

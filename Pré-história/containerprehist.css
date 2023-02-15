@@ -1,0 +1,60 @@
+.container-prehist {
+    text-align: center;
+    
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(197, 114, 5, 0.6);
+    filter: 10px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+
+}
+
+.titulo-prehist{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.texto-prehist {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin: 10px;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.lista-prehist h1{
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+    font-weight: 800;
+}
+
+.lista-prehist {
+   
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    margin: 20px;
+    padding: 0;
+    font-weight: 800;
+    
+}
+
+
+.lista-prehist li{
+    list-style:url(./imagens/dinosaur_icon_125532.png);
+    font-weight: 800;
+    
+}

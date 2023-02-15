@@ -1,0 +1,59 @@
+body{
+    background-image: url(./imagensimp/28af710e2abbc73f1567502e2390b389\ \(1\).jpg);
+    background-size: cover;
+}
+
+
+.container-imperio{
+    text-align: center;
+    
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(201, 133, 45, 0.6);
+    filter: 10px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.titulo-imperio{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.texto-imperio{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin: 10px;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.lista-imperio h2{
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+    font-weight: 700;
+}
+
+.lista-imperio li{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    margin: 20px;
+    padding: 0;
+    font-weight: 800;
+    list-style:url(./imagensimp/crown_icon_129368.png);
+}
+

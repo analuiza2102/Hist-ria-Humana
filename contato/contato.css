@@ -1,0 +1,89 @@
+body{
+  background-image: url(./imagenscontato/pyramids-ge60ebb317_1920.jpg) ;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.btn-contato {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: flex;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-contato:hover {
+  background-color: #45a049;
+}
+
+
+.NOME{
+  width: 50%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.CONTATO{
+  width: 50%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.MENSAGEM{
+  width: 60%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.MENSAGEM label{
+  text-align: left;
+  padding: 0;
+  margin: 10px;
+}
+
+
+#formularioContato label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+.form-container {
+  border-radius: 5px;
+  background-color: #a1a0a0;
+  padding: 20px;
+  width: 100%;
+}

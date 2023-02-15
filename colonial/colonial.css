@@ -1,0 +1,59 @@
+body{
+    background-image: url(../colonial/imagenscolonial/cdc5a688bd745dbbfbd145e39f482315.jpg);
+    background-size: cover;
+}
+
+
+.container-colonial{
+    text-align: center;
+    
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(215, 141, 45, 0.6);
+    filter: 10px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.titulo-colonial{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.texto-colonial{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin: 10px;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.lista-colonial li{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    margin: 20px;
+    padding: 0;
+    font-weight: 800;
+    list-style: url(./imagenscolonial/history_11156.png);
+}
+
+
+.lista-colonial h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+}
+

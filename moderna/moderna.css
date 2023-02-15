@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../moderna/imagens/1940-1941-Setembro.-Tirando-batatas-da-terra-1940-1941-óleo-col.-particular.jpg);
+    background-size: cover;
+}
+
+
+
+
+.container-moderna{
+    text-align: center;
+    
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(197, 114, 5, 0.6);
+    filter: 10px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+
+}
+
+
+
+.titulo-moderna{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.texto-moderna{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin: 10px;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+.titulo-lista{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+}
+
+
+.lista-moderna li{
+    font-size: 20px;
+    font-family:'PT Sans', sans-serif ;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.5;
+    text-align: left;
+    list-style: url(./imagens/manuscript_history_log_icon_232917.png) ;
+
+}
