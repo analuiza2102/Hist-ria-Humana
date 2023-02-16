@@ -43,32 +43,53 @@
 
     </header>
 
-      <form action="https://api.staticforms.xyz/submit" method="post" id="formularioContato">
+    <form action="https://api.staticforms.xyz/submit" method="post" id="formularioContato" class="formularioContato">
         <input type="hidden" name="accessKey" value="5bb6b4cb-3013-4a1f-93a3-5a48569425d8">
-        <input type="hidden" name="redirectTo" value="https://analuiza2102.github.io/site-gustavo-main/contato/contato.html">
+        <input type="hidden" name="redirectTo" value="https://github.com/analuiza2102">
+        <input type="text" name="honeypot" style="display: none;">
 
         <div class="NOME">
+          
         
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder = "name">
+        <input type="text" id="nome" name="name" placeholder = "name">
+        <span id="nome-error" class="error-message"></span>
         <br><br>
       </div>
       <div class="CONTATO">
         <label for="contato">Email:</label>
-        <input type="text" id="contato" name="email" placeholder="Contato">
+        <input type="text" id="contato" name="email" placeholder="Email">
+        <span id="email-error" class="error-message"></span>
+        <input type="hidden" name="replyTo" value="@">
         <br><br>
       </div>
+      <div class="CELULAR">
+        <label for="celular">Celular:</label>
+        <input type="text" name="phone" placeholder="Número-Celular">
+        <span id="celular-error" class="error-message"></span>
+        <br><br>
+
+
+      </div>
+
+
+
       <div class="MENSAGEM">
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="message" placeholder="Digite sua mensagem aqui"></textarea>
+        <span id="mensagem-error" class="error-message"></span>
         <br><br>
       </div>
       
-      <button id="" class="btn-contato">
+      <button id="enviar-formulario" class="btn-contato">
         Enviar
-      </button>
+    </button>
+    <span id="form-error" class="error-message"></span>
+       
       </form>
 
+      
+     
     
 </body>
 </html>
